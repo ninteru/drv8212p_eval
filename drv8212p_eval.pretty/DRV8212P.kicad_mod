@@ -1,6 +1,6 @@
 (footprint "DRV8212P" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 63D7460F)
+  (tedit 63D89D4B)
   (attr smd)
   (fp_text reference "REF**" (at 0 -2 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -39,4 +39,9 @@
     (solder_mask_margin 0.07) (clearance 0.07) (tstamp c20aea50-e9e4-4978-b938-d613d445aab7))
   (pad "8" smd roundrect (at 0.95 -0.75) (size 0.5 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
     (solder_mask_margin 0.07) (clearance 0.07) (tstamp d9cf2d61-3126-40fe-a66d-ae5145f94be8))
+  (model "${KIPRJMOD}/3dmodels/drv8212p.stp"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
