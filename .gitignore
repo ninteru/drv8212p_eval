@@ -17,3 +17,6 @@ _autosave-*
 *-save.kicad_pcb
 \#auto_saved_files#
 fp-info-cache
+
+# fab output package
+*.zip
